@@ -15,7 +15,7 @@ IOS는 DNS부분만 구축한 서버 IP를 넣어주면 되지만 안드로이�
 $ sudo apt update
 $ sudo apt upgrade -y
 $ sudo apt install apache2 php php-sqlite3 bind9 -y
-$ git clone https://github.com/jhs516/DMTQ-ubuntu.git
+$ git clone https://github.com/jon5307/DMTQ-ubuntu.git
 $ cd DMTQ-ubuntu/
 $ sudo cp -v sites-available/* /etc/apache2/sites-available/
 $ sudo cp -rv ssl /etc/apache2/
